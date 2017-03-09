@@ -1,0 +1,28 @@
+{
+  "name": "browserify-gnirts",
+  "version": "0.1.0",
+  "description": "a browserify transform to use gnirts obfuscator",
+  "main": "lib/gnirtsify",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicLemerlus/browserify-gnirts.git"
+  },
+  "author": "Loic Le Merlus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoicLemerlus/browserify-gnirts/issues"
+  },
+  "homepage": "https://github.com/LoicLemerlus/browserify-gnirts#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "gnirts": "^0.4.6",
+    "through2": "^2.0.3"
+  }
+}
